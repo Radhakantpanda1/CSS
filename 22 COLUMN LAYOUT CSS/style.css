@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 70vh;
+    width: 70%;
+    border: 5px solid salmon;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20vh;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+}
+p{
+    column-count: 4;
+    column-rule: 3px solid green;
+    column-gap: 25px;
+    text-align: justify;
+}

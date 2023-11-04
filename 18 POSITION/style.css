@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    height: 700px;
+    width:1100px;
+    background-color: #000;
+    margin: auto;
+    position: relative;
+    
+}
+.child{
+    height: 140px;
+    width: 220px;
+    background-color: deeppink;
+    position: absolute;
+}
+.child1{
+    top: 0;
+    right: 0;
+}
+.child2{
+    bottom: 0;
+    right: 0;
+}
+.child3{
+    top: 0;
+    left: 0;
+}
+.child4{
+    bottom: 0;
+    left: 0;
+}
+.child5{
+    left:440px;
+    top:280px;
+}

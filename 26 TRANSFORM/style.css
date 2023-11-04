@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    background-color: cornsilk;
+    transition: transform 1s linear;
+   
+    
+}
+.child:hover{
+    box-shadow:0 0 55px 5px wheat ;
+    transform: translateY(50PX);
+    
+}
+.ch2{
+   /* transition: translate 1s linear; */
+   transition: scale 1s linear;
+}
+.ch2:hover{
+    box-shadow:0 0 55px 5px wheat ;
+    /* translate: 100px 100px; */
+    scale: 1.5;
+}

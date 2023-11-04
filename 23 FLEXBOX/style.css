@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 80vh;
+    width: 80%;
+    background-image: linear-gradient(to right top,rgba(255, 20, 147,0.6),rgba(109, 172, 14, 0.6));
+    margin: 10px auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    height: 19vh;
+    aspect-ratio: 1;
+    border: 5px solid seagreen;
+    background-image: linear-gradient(to right top,rgba(28, 20, 255, 0.6),rgba(233, 15, 55, 0.6));
+}
+h1{
+    text-align: center;
+    margin: 0 auto;
+    color:salmon;
+    font-size: 100px;
+
+}

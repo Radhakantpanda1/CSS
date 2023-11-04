@@ -1,0 +1,10 @@
+BOX-MODEL IN CSS
+
+border: border-width border-style border-color;
+border-radius:;
+
+you can check colorspace and ui gradient site
+color space url-
+https://mycolor.space/
+you can use this site(fancy border radius)
+https://9elements.github.io/fancy-border-radius/#49.100.0.52--.

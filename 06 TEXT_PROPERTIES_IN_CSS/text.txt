@@ -1,0 +1,20 @@
+Text properties in CSS-
+
+a.text-alignment
+
+b.text-decoration-to add decoration like underline,overline,linethrough....
+text-decoration: underline;
+text-decoration-style: double;
+
+c.text-spacing-
+letter-spacing
+word-spacing
+line-height:1.5;
+white-space:nowrap;
+
+
+d.text-transform-
+text-transform: uppercase;
+
+e.text-shadow-
+text-shadow: offset-x,offset-y,blur-radius,color;

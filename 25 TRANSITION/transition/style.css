@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.child{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    background-color: cornsilk;
+    transition-property:box-shadow ,translate;
+    transition-duration: 0.1s,1s;
+     transition-timing-function: ease;
+    
+}
+.child:hover{
+    box-shadow:0 0 55px 5px wheat ;
+    translate: 50vw;
+}

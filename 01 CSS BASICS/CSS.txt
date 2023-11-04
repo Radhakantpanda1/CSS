@@ -1,0 +1,60 @@
+CSS- It stands for cascading style sheet.
+
+
+
+
+Inline CSS-
+Internal CSS
+External CSS
+
+SELECTOR-THESE ARE USED TO SELECT ANY ELEMENT OR TAG AND APPLY THE STYLING ON IT
+
+selector{
+    property:value;
+    /* property and value as a whole is called declaration */
+}
+tag/element selector-It is used to select the elements/tags and apply the css styling.
+class/element name{
+    property:value;
+}
+
+class selector-It is used to select the elements with the class name and apply the css styling.
+.class_name{
+    property:value;
+}
+id selector-It is used to select the element with the id and apply the css styling.
+#id_name{
+    property:value;
+}
+/* THIS IS A COMMENT IN CSS */
+
+Color In CSS-
+RGB
+rgb(value,value,value);
+cyan rgb(0,255,255);
+red rgb(255,0,0);
+green rgb(0,255,0);
+blue rgb(0,0,255);
+
+rgba(0,0,255,1);
+a(alpha-channel) is for opacity ranges from 0  to 1
+
+// you can use color pallet or color hunt for color selection no need to remember the hexcode.
+
+// HSL Colors:(Hue,Saturation,Lightness)
+these values provide a way to specify colors based on their hue,saturation,Lightness
+similarly hsla(0,0,0,0); also exists
+
+selector{
+    color:transparent;
+    
+}
+
+Hue :  A pure color.
+tint:  pure color with just white added
+shade: pure color with just black added
+tone: pure color with just grey added
+
+
+
+

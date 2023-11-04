@@ -1,0 +1,35 @@
+@font-face {
+    font-family: mine;
+    src: url(./Ghosteen.otf);
+}
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap');
+html{
+    font-size:10px;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    border:5px solid black;
+    padding:10px 10px;
+    margin:5px;
+}
+p{
+    font-family: 'Urbanist', sans-serif;
+}
+#main:hover{
+    background-color: palegreen;
+}
+#main:hover p{
+    color:deeppink;
+    font-size: 1.5rem;
+}
+#main:hover h2{
+    font-family: mine;
+    opacity: 1;
+    font-size: 1.65rem;
+    font-style: italic;
+    font-weight: 900;
+    font-variant: small-caps;
+}

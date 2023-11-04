@@ -1,0 +1,17 @@
+UNITS IN css
+
+1.Absolute Units-The length units are fixed and the length expressed in thses units will appear exactly of that size 
+pexels(px)-smallest unit of screen space( 100%=16px)
+inches(in)
+points(pt)
+
+2.Relative units-Relative length units specify a length relative to another length property.Relative length unit scale better between different rendering medium.
+a.em - it is calculated based on font size of parent element(1em=16px)
+b.rem (root em)-It is a relative unit like em but it is based on the font size of root(html) element.
+for 1rem we can specify unit of our choice.
+c.percentage
+
+difference btn em and rem-
+em is relative to its parent element while rem is relative to its root(html) element.
+
+*** rem is the preffered choice for responsive design as it offers consistent relative size based on the root font size to maintain and provide better scalability.****

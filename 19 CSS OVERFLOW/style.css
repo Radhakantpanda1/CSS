@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.child{
+    height: 30vh;
+    width: 20%;
+    gap:5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+p{
+    font-size: 28px;
+}
+.ch1{
+    overflow: visible;
+}
+.ch2{
+    overflow: hidden;
+}
+.ch3{
+    overflow: scroll;
+}
+.ch4{
+    overflow: auto;
+}

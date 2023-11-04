@@ -1,0 +1,9 @@
+#content ol :nth-of-type(2){
+    color: deeppink;
+}
+#content ol :nth-of-type(4){
+    color: salmon;
+}
+#content ol:nth-child(1){
+    color: sienna;
+}

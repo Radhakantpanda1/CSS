@@ -1,0 +1,13 @@
+Fonts in css-
+
+font-size -to control the size of text.
+font-family-it is used to specify the font which you want to use.
+font-weight-thichkness of characters ranging from 100 to 900
+font-style -to apply various font styles.
+font-variant-
+
+what is fall back font-
+suppose a browser is unable to support your main/primary font then fallback font will be applied
+
+font-family:'Urbanist', sans-serif;
+here Urbanist is the primary font whereas sans-serif is fallback font. 

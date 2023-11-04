@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.ch1{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: wheat;
+    animation-name: l2r;
+    animation-duration: 3s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes l2r{
+    from{
+        translate:0;
+    }
+    to{
+       /* translate: calc(90vw - 200px); */
+       translate: calc(100vw - 200px);
+    }
+}

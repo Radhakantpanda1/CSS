@@ -1,0 +1,9 @@
+#main{
+    border: 5px solid green;
+    background-color: deeppink;
+    height:60vh;
+    width:60%;
+    padding: 20px;
+    font-size: 20px;
+    margin:80px 120px;
+}

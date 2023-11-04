@@ -1,0 +1,7 @@
+// BACKGROUND PROPETIES IN CSS
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attachment
